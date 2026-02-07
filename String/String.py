@@ -35,3 +35,6 @@ print("length of first name is" , len(name))
 # Write a program to find the occurrence of '$' in a String.
 countNo = "Hi, $Iam the $ symbol $99.99"
 print(countNo.count("$"))
+
+strong = " Hey i am studying python from youtube"
+print(strong.endswith("ube"))

@@ -13,14 +13,15 @@
 # print(car1.brand)
 
 class Student:
-    def __init__(self, fullname):
-        self.name = fullname
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
         print("adding new student in database")
 
-s1 = Student("Ayush")
-print(s1.name)
+s1 = Student("Ayush", 94)
+print(s1.name, s1.marks)
 
-s2 = Student("Akash")
-print(s2.name)
-
+s2 = Student("Akash", 85)
+print(s2.name, s2.marks)
+ 
 

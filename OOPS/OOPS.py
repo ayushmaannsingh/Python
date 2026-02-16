@@ -18,7 +18,13 @@ class Student:
     def __init__(self, name, marks):
         self.name = name
         self.marks = marks
-        print("adding new student in database")
+       # print("adding new student in database")
+    
+    def welcome(self):
+        print("Welcome student,", self.name)
+
+    def get_marks(self):
+        return self.marks
 
 s1 = Student("Ayush", 94)
 print(s1.name, s1.marks)
@@ -26,3 +32,5 @@ print(s1.name, s1.marks)
 s2 = Student("Akash", 85)
 print(s2.name, s2.marks, s2.college_name)
  
+s1.welcome()
+print(s1.get_marks())

@@ -13,6 +13,8 @@
 # print(car1.brand)
 
 class Student:
+    college_name = "Patel college"  # Class attributes
+
     def __init__(self, name, marks):
         self.name = name
         self.marks = marks
@@ -22,6 +24,5 @@ s1 = Student("Ayush", 94)
 print(s1.name, s1.marks)
 
 s2 = Student("Akash", 85)
-print(s2.name, s2.marks)
+print(s2.name, s2.marks, s2.college_name)
  
-

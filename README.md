@@ -1,4 +1,3 @@
 
    # Python 
 Python notes
-python 

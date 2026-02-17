@@ -43,3 +43,23 @@ class Fortuner(ToyotaCar):
 
 car1 = Fortuner("disel")
 car1.start()
+
+# Multiple Inheritance
+
+class A:
+    varA = "welcome to class A"
+
+class B:
+    varB = "welcome to class B"
+
+class C: 
+    varC = "welcome to class C"
+
+c1 = C()
+
+
+print(c1.varC)
+print(c1.varB)
+print(c1.varA)
+
+

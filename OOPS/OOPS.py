@@ -46,4 +46,19 @@ class Student_keyword :
 s1 = Student_keyword("Ayush Singh")
 print(s1)
 del s1
-print(s1)
+# print(s1)
+
+# Private(like) attribute and method
+
+class Account:
+    def __init__(self, acc_no, acc_pass):
+        self.acc_no = acc_no
+        self.__acc_pass = acc_pass
+
+    def reset_pass(self):
+        print(self.__acc_pass)
+
+acc1 = Account("12345", "ayush")
+
+print(acc1.acc_no)
+print(acc1.reset_pass())

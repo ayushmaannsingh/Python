@@ -34,3 +34,16 @@ print(s2.name, s2.marks, s2.college_name)
  
 s1.welcome()
 print(s1.get_marks())
+
+
+
+# del keyword
+
+class Student_keyword :
+    def __init__(self, name):
+        self.name = name
+
+s1 = Student_keyword("Ayush Singh")
+print(s1)
+del s1
+print(s1)

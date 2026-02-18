@@ -1,4 +1,4 @@
-# Super method
+# # Super method
 
 class Car_Carr:
     def __init__(self, type):
@@ -20,16 +20,16 @@ class ToyotaCar(Car_Carr):
         super().start()
         
 
-# class Fortuner(ToyotaCar):
-#     def __init__(self, type):
-#         self.type = type
+# # class Fortuner(ToyotaCar):
+# #     def __init__(self, type):
+# #         self.type = type
 
 car1 = ToyotaCar("prius", "electric")
 print(car1.type)
 # car1.start()
 
 
-# Class method
+# # Class method
 
 class Person:
     name = "anonymous"
@@ -46,3 +46,22 @@ p1 = Person()
 p1.changeName("Ayush Singh")
 print(p1.name)
 print(Person.name)
+
+# Property
+
+class Student:
+    def __init__(self, phy, chem, math):
+        self.phy = phy
+        self.chem = chem
+        self.math = math
+
+    @property
+    def percentage(self):
+        return str((self.phy + self.chem + self.math) / 3 ) + "%"
+    
+stu1 = Student(98, 97, 99)
+print(stu1.percentage)
+
+stu1.phy = 86
+print(stu1.percentage)
+

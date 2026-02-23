@@ -39,5 +39,3 @@ with open("demo.txt", "w") as f:
 import os
 
 os.remove("sample.txt")
-
-

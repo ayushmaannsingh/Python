@@ -24,6 +24,8 @@
 # f.close()
 
 
+
+
 # With syntax
 
 with open("demo.txt", "r") as f:

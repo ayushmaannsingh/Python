@@ -36,3 +36,10 @@ print(id(text))   # new memory address
 # Memory address change ho gaya.
 
 # 👉 Isliye strings immutable hoti hain.
+
+numbers = [1, 2, 3]
+print(id(numbers))
+
+numbers[0] = 100
+print(numbers)
+print(id(numbers))

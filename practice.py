@@ -45,7 +45,4 @@ print(numbers)
 print(id(numbers))
 
 
-
-
-
  

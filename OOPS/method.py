@@ -65,3 +65,5 @@ print(stu1.percentage)
 stu1.phy = 86
 print(stu1.percentage)
 
+
+

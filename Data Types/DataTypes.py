@@ -26,3 +26,7 @@ val2 = int (input ("enter no. 2 ="))
 
 print("sum =", val1 + val2)
 
+
+
+
+

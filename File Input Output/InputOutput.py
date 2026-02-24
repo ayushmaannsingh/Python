@@ -24,6 +24,8 @@
 # f.close()
 
 
+
+
 # With syntax
 
 with open("demo.txt", "r") as f:
@@ -37,3 +39,4 @@ with open("demo.txt", "w") as f:
 import os
 
 os.remove("sample.txt")
+

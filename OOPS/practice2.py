@@ -23,3 +23,5 @@ class Account:
 acc1 = Account(10000, 440580)
 acc1.debit(500)
 acc1.credit(2000)
+
+

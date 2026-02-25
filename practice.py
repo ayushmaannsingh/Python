@@ -46,3 +46,10 @@ print(id(numbers))
 
 
  
+
+a = int(input, "Enter no a= ")
+b = int(input, "Enter no b= ")
+
+c = int(input, (a+b))
+
+print(c)

@@ -47,9 +47,9 @@ print(id(numbers))
 
  
 
-a = int(input, "Enter no a= ")
-b = int(input, "Enter no b= ")
+a = int(input ("Enter no a= "))
+b = int(input ( "Enter no b= "))
 
-c = int(input, (a+b))
+c = a + b
 
-print(c)
+print("Sum =", c)

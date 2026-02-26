@@ -50,7 +50,7 @@ print(id(numbers))
 a = int(input ("Enter no a= "))
 b = int(input ( "Enter no b= "))
 
-c = a * b
+c = a / b
 
 print("Sum =", c)
 

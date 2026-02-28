@@ -44,7 +44,6 @@ numbers[0] = 100
 print(numbers)
 print(id(numbers))
 
-
  
 
 a = int(input ("Enter no a= "))
